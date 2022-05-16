@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Table Hover</title>
+        <style type="text/css">
+            #MainUL li ol li{display: none;}
+            #MainUL li:hover ol li{display:block;}
+            #MainUL li:hover ol li ol li{display:none;}
+            #MainUL li ol li:hover ol li{display:block;}
+        </style>
+    </head>
+    <body>
+        <ol id="MainUL">
+            <li>Google
+               <ol > 
+                   <li>G-mail
+                        <ol type="square">
+                            <li>Sign-In</li>
+                            <li>Sign-Up</li>
+                        </ol>
+                    </li>
+                    <li>YouTube</li>
+                    <li>GDrive</li>
+                    <li>GMap</li>
+               </ol>
+            </li>
+            <li>Facebook</li>
+            <li>Microsoft
+                <ol type="1">
+                    <li>Bing</li>
+                    <li>Linked In</li>
+                </ol>
+            </li>
+            <li>MSN</li>
+            <li>Amazon
+                <ol type="1">
+                    <li>AWS</li>
+                    <li>Ecommerce</li>
+                    <li>A-ML</li>
+                </ol>
+            </li>
+        </ol>
+    </body>
+</html>
